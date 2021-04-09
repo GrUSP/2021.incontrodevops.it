@@ -1,34 +1,50 @@
-sponsors_block_title: ""
-# main:
-#  sponsor1:
-#    name: ""
-#    logo_filename: ""
-#    site_url: ""
+sponsors_block_title: "Grazie Sponsor!"
+main:
+  sponsor1:
+    name: "sighup"
+    logo_filename: "sighup.png"
+    site_url: "https://sighup.io/"
 # diamond:
 #  sponsor1:
 #    name: ""
 #    logo_filename: ""
 #    site_url: ""
-#platinum:
-#  sponsor1:
-#    name: ""
-#    logo_filename: ""
-#    site_url: ""
-#gold:
-#  sponsor1:
-#    name: ""
-#    logo_filename: ""
-#    site_url: ""
-#silver:
-#  sponsor1:
-#    name: ""
-#    logo_filename: ""
-#    site_url: ""
-#bronze:
-#  sponsor1:
-#    name: ""
-#    logo_filename: ""
-#    site_url: ""
+platinum:
+  sponsor1:
+    name: "newesis"
+    logo_filename: "newesis.svg"
+    site_url: "https://www.newesis.com/"
+  sponsor2:
+    name: "OVHcloud"
+    logo_filename: "ovh.png"
+    site_url: "https://www.ovhcloud.com/it/"
+gold:
+  sponsor1:
+    name: "sparkfabrik"
+    logo_filename: "sparkfabrik.png"
+    site_url: "https://www.sparkfabrik.com/it/"
+  sponsor2:
+    name: "workwave"
+    logo_filename: "workwave.svg"
+    site_url: "https://www.workwave.com/"
+silver:
+  sponsor1:
+    name: "Facile.it"
+    logo_filename: "facile.svg"
+    site_url: "https://www.facile.it/"
+  sponsor2:
+    name: "Madisoft"
+    logo_filename: "madisoft.svg"
+    site_url: "https://labs.madisoft.it"
+  sponsor3:
+    name: "Mia Platform"
+    logo_filename: "miaplatform.svg"
+    site_url: "https://www.mia-platform.eu/it/"
+bronze:
+  sponsor1:
+    name: "stickermule"
+    logo_filename: "stickermule.svg"
+    site_url: "https://mule.to/p1j5"
 #  sponsor2:
 #    name: ""
 #    logo_filename: ""
@@ -45,5 +61,5 @@ sponsors_block_title: ""
 
 # Partner configuration
 partner_tags:
-  - css
-  - frontend
+  - DevOps
+  - IDI

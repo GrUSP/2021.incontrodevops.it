@@ -13,7 +13,7 @@ conference:
 
   # menu and general params
   menu_buy_tickets_label: "Compra il biglietto"
-  buy_tickets_url: "https://www.eventbrite.com/e/biglietti-incontrodevops-2021-130900796807"
+  buy_tickets_url: "https://idi-2021.eventbrite.it"
   # additional info for microdata / schema.org
   #md_city: "Verona"
   #md_province: "VR"
@@ -23,10 +23,10 @@ conference:
   # contact email
   contact_email: "devops@grusp.org"
   # these are for the hero section
-  title_pre: ""
-  title: "incontro devops Digital Edition"
+  title_pre: "#IDI2021"
+  title: "Incontro DevOps Italia"
   city: "online"
-  date: 2021-07-02T10:00+01:00
+  date: 2021-07-02T10:00+02:00
   countdown_visible: true
   countdown_days: "giorni"
   countdown_hours: "ore"
@@ -49,7 +49,7 @@ conference:
   cfp_readmore_label: "Continua a leggere"
   cfp_open_label: "Proponi un talk entro il"
   cfp_open_title: "Call For Papers aperta!"
-  cfp_deadline: 2021-05-31T23:59+01:00
+  cfp_deadline: 2021-05-31T23:59+02:00
   cfp_register_label: "Invia la tua proposta"
   cfp_register_aria_label: "Inviaci ora la tua proposta"
   # "general information" ("what is it?") component
@@ -67,9 +67,9 @@ conference:
   newsletter_lists:
     php: false
     javascript: false
-    design: true
-    devops: false
-    frontend: true
+    design: false
+    devops: true
+    frontend: false
     ruby: false
     entrepreneurship: false
     local_events: false
