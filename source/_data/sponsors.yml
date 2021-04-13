@@ -61,5 +61,5 @@ bronze:
 
 # Partner configuration
 partner_tags:
-  - DevOps
-  - IDI
+  - devops
+  - idi
