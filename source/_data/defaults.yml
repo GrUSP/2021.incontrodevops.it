@@ -37,13 +37,13 @@ conference:
   # image credits (l'esempio è per la hero del CSS Day!)
   # hero_img_credits: "Image by Gianni Careddu - Own work, <a href='https://commons.wikimedia.org/w/index.php?curid=74821344 target='_blank' rel='noopener noreferrer'>CC BY-SA 4.0</a>"
   # "update" component. set the first parameter to true to make it appear in home page, false means hidden
-  update_visible: false
+  update_visible: true
   update_is_warning: false
-  update_warning_header: "Questo testo appare se l'update è impostato a *warning*. Potremmo sostituirlo con un'icona o altro 'segnale'"
-  update_title: "Important information"
-  update_description: "This is the description of such important information"
-  update_link_url: "https://google.com/"
-  update_link_label: "link to google, just for the demo"
+  update_warning_header: ""
+  update_title: "Non perdere gli eventi gratuiti che anticipano la conferenza"
+  update_description: "SAVE THE DATE! </br> Mercoledì 21 Aprile 2021: <a href='https://idi-localhost-2021.eventbrite.it'>'Aspettando IDI <i>at localhost'</i></a> </br> Giovedì 20 Maggio 2021: <a href='https://mlops-localhost.eventbrite.it'>'MLOps <i>at localhost'</i></a>"
+  update_link_url: "https://idi-localhost-2021.eventbrite.it"
+  update_link_label: "Aspettando #IDI2021"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
   cfp_open: true
   cfp_readmore_label: "Continua a leggere"
