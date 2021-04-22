@@ -41,8 +41,8 @@ conference:
   update_is_warning: false
   update_warning_header: ""
   update_title: "Non perdere gli eventi gratuiti che anticipano la conferenza"
-  update_description: "SAVE THE DATE! </br> Mercoledì 21 Aprile 2021: <a href='https://idi-localhost-2021.eventbrite.it'>'Aspettando IDI <i>at localhost'</i></a> </br> Giovedì 20 Maggio 2021: <a href='https://mlops-localhost.eventbrite.it'>'MLOps <i>at localhost'</i></a>"
-  update_link_url: "https://idi-localhost-2021.eventbrite.it"
+  update_description: "SAVE THE DATE! </br>  Giovedì 20 Maggio 2021: <a href='https://mlops-localhost.eventbrite.it'>'MLOps <i>at localhost'</i></a>"
+  update_link_url: "https://mlops-localhost.eventbrite.it"
   update_link_label: "Aspettando #IDI2021"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
   cfp_open: true
