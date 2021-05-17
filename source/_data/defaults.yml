@@ -41,8 +41,10 @@ conference:
   update_is_warning: false
   update_warning_header: ""
   update_title: "Non perdere gli eventi gratuiti che anticipano la conferenza"
-  update_description: "SAVE THE DATE! </br>  Giovedì 20 Maggio 2021: <a href='https://mlops-localhost.eventbrite.it'>'MLOps <i>at localhost'</i></a>"
-  update_link_url: "https://mlops-localhost.eventbrite.it"
+  update_description: "SAVE THE DATE!
+    </br> Giovedì 20 Maggio 2021: <a href='https://mlops-localhost.eventbrite.it'>'MLOps <i>at localhost'</i></a>
+    </br> Martedì 29 Giugno 2021: <a href='https://serverless-localhost.eventbrite.it'>'Serverless <i>at localhost'</i></a>"
+  update_link_url: "https://serverless-localhost.eventbrite.it"
   update_link_label: "Aspettando #IDI2021"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
   cfp_open: true
@@ -55,7 +57,7 @@ conference:
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "Che cos'è?"
-  geninfo_description: "IDI Incontro DevOps Italia 2021 è la 9° edizione della conferenza italiana dedicata alle tematiche DevOps. Parleremo di DevOps, Continuous Delivery, Cloud, Microservices, Automation, Testing, Big Data, Containers, Data Center Operating Systems, Software Operability.<br> incontrodevops 2021 si svolge online."
+  geninfo_description: "IDI Incontro DevOps Italia 2021 è la 9° edizione della conferenza italiana dedicata alle tematiche DevOps. Parleremo di DevOps, Continuous Delivery, Cloud, Microservices, Automation, Testing, Big Data, Containers, Data Center Operating Systems, Software Operability.<br> #IDI2021 si svolge il 2 Luglio 2021 ONLINE."
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarships"
