@@ -28,6 +28,10 @@ gold:
     logo_filename: "sparkfabrik.png"
     site_url: "https://www.sparkfabrik.com/it/"
   sponsor2:
+    name: "vistatech"
+    logo_filename: "vistatechnology.png"
+    site_url: "www.vistatech.it"
+  sponsor3:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
