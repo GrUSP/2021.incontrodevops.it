@@ -51,7 +51,7 @@ speaker_6: &cristianprevedello
   speaker_in_speaker_lists: true
   speaker_name: Cristian Prevedello
   speaker_pic_filename: cristian-prevedello.png
-  speaker_role: "Chief Architect"
+  speaker_role: "Chief Architect @ Previnet"
   speaker_bio: "I'm an an hands-on chief architect, fully dedicated to build my company private cloud infrastructure through custom made devops tools, used to deliver and rollout highly performant and scalable applications based on reactive microservices and kubernetes."
   speaker_github_url: ""
   speaker_twitter_url: "https://twitter.com/LostInBrittany"
