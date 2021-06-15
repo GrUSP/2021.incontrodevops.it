@@ -28,7 +28,7 @@ conference:
   city: "online"
   date: 2021-07-02T10:00+02:00
   # Use the next field to override the date in the hero
-  hero_date_text:
+  hero_date_text: "2 Luglio, 28 Settembre e 28 Ottobre"
   countdown_visible: true
   countdown_days: "giorni"
   countdown_hours: "ore"
@@ -58,9 +58,15 @@ conference:
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "Che cos'è?"
-  geninfo_description: "IDI Incontro DevOps Italia 2021 è la 9° edizione della conferenza italiana dedicata alle tematiche DevOps.
+  geninfo_description: "<strong>IDI Incontro DevOps Italia 2021</strong> è la 9° edizione della conferenza italiana dedicata alle tematiche DevOps.
     Parleremo di DevOps, Continuous Delivery, Cloud, Microservices, Automation, Testing, Big Data, Containers, Data Center Operating Systems, Software Operability.</br> <br />
-    #IDI2021 si svolge il 2 Luglio 2021 ONLINE. Oltre alla giornata di conferenza, sono compresi nel biglietto altri due appuntamenti, con altri talk e casi di studio, che si svolgeranno online in Settembre e Ottobre 2021."
+    #IDI2021 si svolge ONLINE, in 3 momenti:
+    <ul>
+    <li>• Venerdì 2 Luglio 2021, una giornata intera;</li>
+    <li>• Martedì 28 Settembre 2021, mezza giornata;</li>
+    <li>• Giovedì 28 Ottobre 2021, mezza giornata.</li>
+    </ul></br>
+    Il biglietto consente la partecipazione a tutti e tre gli appuntamenti."
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarships"
