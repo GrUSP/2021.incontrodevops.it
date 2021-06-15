@@ -27,6 +27,8 @@ conference:
   title: "Incontro DevOps Italia"
   city: "online"
   date: 2021-07-02T10:00+02:00
+  # Use the next field to override the date in the hero
+  hero_date_text:
   countdown_visible: true
   countdown_days: "giorni"
   countdown_hours: "ore"
