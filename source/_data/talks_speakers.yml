@@ -1,41 +1,108 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: true
+generate_schedule_page: false
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
 # Speakers. I mixin "&nome" servono per indicare quali speaker partecipano a ogni talk, sotto
-speaker_1: &regular_speaker
+speaker_1: &thomasbianchi
   speaker_in_speaker_lists: true
-  speaker_name: Luca Guidi
-  speaker_pic_filename: lucaguidi.png
-  speaker_role: Author of Hanami
-  speaker_bio: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. And however, enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
-  speaker_github_url: "https://github.com/jodosha"
-  speaker_twitter_url: "https://twitter.com/jodosha"
-speaker_2: &keynote_speaker
+  speaker_name: Thomas Bianchi
+  speaker_pic_filename: thomas-bianchi.png
+  speaker_role: "Operation Expert @ Mia-Platform"
+  speaker_bio: "è appassionato di fantascienza e mondo DevOps, che poi sono la stessa cosa"
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+speaker_2: &paolocarta
   speaker_in_speaker_lists: true
-  speaker_name: Keynote Speaker
-  speaker_pic_filename: giulia.jpeg
-  speaker_role: "speaker role (optional)"
-  speaker_bio: "Example of a workshop host that must appear in speaker lists"
-speaker_3: &mc
+  speaker_name: Paolo Carta
+  speaker_pic_filename: paolo-carta.png
+  speaker_role: "Software e DevOps Engineer"
+  speaker_bio: "Nato e cresciuto nella magnifica Sardegna, mi sono spostato a Zurigo in Svizzera per completare i miei studi al Politecnico federale. Dopo il lavoro di ricerca su delay tolerant networks con dispositivi Android mi sono concentrato sullo sviluppo backend sulla JVM e architettura scalabili e resilienti sul cloud. Sono un Kubernetes Application Developer certificato e al momento ho intrapreso la mia carriera da freelance dopo l’interessante esperienza in Red Hat."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/cl4mer"
+speaker_3: &federicofregosi
   speaker_in_speaker_lists: true
-  speaker_name: MC
-  speaker_pic_filename: giulia.jpeg
-  speaker_role: "speaker role (optional)"
-  speaker_bio: "Example of a workshop host that must appear in speaker lists"
+  speaker_name: Federico Fregosi
+  speaker_pic_filename: federico-fregosi.png
+  speaker_role: "VP of Engineering @ Contino"
+  speaker_bio: "Leader ingegneristico esperto con un forte interesse per i sistemi distribuiti, altamente scalabili e basati su cloud. Attualmente in Contino come VP of Engineering, dove sovrintende a un team di oltre 150 ingegneri tecnici di grande talento, intelligenti e provenienti da una vasta gamma di discipline e background.
+    Ha lavorato per anni in ruoli di leadership tecnologica, concentrandosi sulla gestione dell'infrastruttura e sul Cloud con i 3 principali public cloud provider. Ha Esperienza nel settore finanziario, in particolare su piattaforme di pagamento ad alte prestazioni e system compliance.
+    Speaker a varie conferenze e meetup. Federico ha conseguito un Master in Ingegneria del software presso City University London"
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+speaker_4: &giovannigalloro
+  speaker_in_speaker_lists: true
+  speaker_name: Giovanni Galloro
+  speaker_pic_filename: giovanni-galloro.png
+  speaker_role: "Customer Engineer @ Google"
+  speaker_bio: "Lavora in Google da 4 anni e mezzo come Application Modernization Solution Specialist aiutando organizzazioni  di vario tipo che vogliono implementare nuove applicazioni o modernizzare quelle esistenti usando Kubernetes, Istio, ed in generale gli strumenti e le pratiche legati alle architetture Cloud Native.
+    Prima di Google ha lavorato in Microsoft, Red Hat, VMware ed HP, seguendo l’evolversi delle piattaforme negli ultimi 20 anni."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/ggalloro"
+speaker_5: &horaciogonzalez
+  speaker_in_speaker_lists: true
+  speaker_name: Horacio Gonzalez
+  speaker_pic_filename: horacio-gonzalez.png
+  speaker_role: "DevRel Leader @ OVHcloud"
+  speaker_bio: "My role as DevRel Leader is to lead the DevRel Practitioners community at OVHcloud, defining the DevRel strategy, coordinating and giving visibility to our different actions, animating the community and, of course, doing DevRel tasks."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/"
+speaker_6: &cristianprevedello
+  speaker_in_speaker_lists: true
+  speaker_name: Cristian Prevedello
+  speaker_pic_filename: cristian-prevedello.png
+  speaker_role: "Chief Architect"
+  speaker_bio: "I'm an an hands-on chief architect, fully dedicated to build my company private cloud infrastructure through custom made devops tools, used to deliver and rollout highly performant and scalable applications based on reactive microservices and kubernetes."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/LostInBrittany"
+speaker_7: &niccoloraspa
+  speaker_in_speaker_lists: true
+  speaker_name: Niccolò Raspa
+  speaker_pic_filename: niccolo-raspa.png
+  speaker_role: "DevOps Engineer @ SIGHUP"
+  speaker_bio: "è un DevOps engineer appassionato di Kubernetes. È specializzato in soluzioni cloud native che coinvolgono cluster Kubernetes. Lavora nel team engineering di SIGHUP."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/niccoloraspa"
+speaker_8: &thomasvitale
+  speaker_in_speaker_lists: true
+  speaker_name: Thomas Vitale
+  speaker_pic_filename: thomas-vitale.png
+  speaker_role: "Senior Software Engineer @ Systematic"
+  speaker_bio: "I’m a Senior Software Engineer specialized in building modern, cloud native, robust, and secure enterprise applications. I’m the author of “Cloud Native Spring in Action”, published by Manning. I develop enterprise software solutions at Systematic, Denmark, supporting home care, social services, and help to citizens. I have led the development of features to ensure a high degree of security and data privacy in our products and worked on modernizing our platforms and applications for the cloud-native world. I have an MSc in Computer Engineering specializing in software from the Polytechnic University of Turin (Italy). I’m a Red Hat Certified Enterprise Application Developer and Pivotal Certified Spring Professional. I’ve been building Java applications for more than five years, using Spring and Java EE/Jakarta EE. I like contributing to open source projects like Spring Security, Spring Cloud, and Keycloak, and I write articles about application security, cloud development, and JVM languages and frameworks on my blog: https://www.thomasvitale.com."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/vitalethomas"
+
+speaker_9: &fabiomora
+  speaker_in_speaker_lists: true
+  speaker_name: Fabio Mora
+  speaker_pic_filename: fabio-mora.png
+  speaker_role: "MASTER OF CEREMONIES - Software Engineer, DevOps consultant, Author"
+  speaker_bio: ""
   is_mc: true
+
+# per pubblicare speaker in home
+
+speakers:
+  speaker_1: *thomasbianchi
+  speaker_2: *paolocarta
+  speaker_3: *federicofregosi
+  speaker_4: *giovannigalloro
+  speaker_5: *horaciogonzalez
+  speaker_6: *cristianprevedello
+  speaker_7: *niccoloraspa
+  speaker_8: *thomasvitale
+  speaker_9: *fabiomora
 
 tracks:
   track_1: &track_1
     id: 1
     title: "Track 1"
-  track_2: &track_2
-    id: 2
-    title: "Track 2"
-  track_3: &track_3
-    id: 3
-    title: "Track 3 - fake track"
+#  track_2: &track_2
+#    id: 2
+#    title: "Track 2"
+#  track_3: &track_3
+#    id: 3
+#    title: "Track 3 - fake track"
 
 # NB "item_type": tipi di "talk"
 #   "talk" -- un talk vero e proprio, che va anche in components/speakers e nella pagina talks_speakers
@@ -47,107 +114,125 @@ tracks:
 
 days:
   day_1:
-    date: 2020-09-16T09:00
+    date: 2021-07-02T10:00+02:00
     title: "Day 1"
     talks:
-      talk_1:
+    # service
+      opening:
         item_type: "service"
-        start_datetime: 2020-09-16T09:00
-        end_datetime: 2020-09-16T09:30
-        talk_title: "Check-in"
-      talk_2:
+        start_datetime: 2021-07-02T10:00+02:00
+        end_datetime: 2021-07-02T10:00+02:00
+        talk_title: "Welcome from GrUSP"
+      closing:
         item_type: "service"
-        start_datetime: 2020-09-16T09:30
-        end_datetime: 2020-09-16T09:45
-        talk_title: "GrUSP presentation"
-      talk_3:
-        item_type: "keynote"
-        start_datetime: 2020-09-16T09:45
-        end_datetime: 2020-09-16T10:00
-        talk_title: "Keynote title (optional)"
-        talk_description: "Keynote description (optional)"
-        speakers:
-          speaker_1: *keynote_speaker
-      talk_4:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2020-09-16T10:00
-        end_datetime: 2020-09-16T10:45
-        talk_title: Lorem ipsum
-        talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        talk_video_url:
-        speakers:
-          speaker_1: *regular_speaker
-      talk_5:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2020-09-16T11:00
-        end_datetime: 2020-09-16T12:00
-        talk_title: Lorem ipsum
-        talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        talk_video_url:
-        speakers:
-          speaker_1: *regular_speaker
-      talk_6:
+        start_datetime: 2021-07-02T10:00+02:00
+        end_datetime: 2021-07-02T10:00+02:00
+        talk_title: "Saluti dal GrUSP"
+      coffee-morning:
         item_type: "service"
-        start_datetime: 2020-09-16T10:45
-        end_datetime: 2020-09-16T11:00
+        start_datetime: 2021-07-02T10:00+02:00
+        end_datetime: 2021-07-02T10:00+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
-      talk_7:
-        item_type: "talk"
-        track: *track_2
-        start_datetime: 2020-09-16T10:00
-        end_datetime: 2020-09-16T10:45
-        talk_title: Lorem ipsum
-        talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        talk_video_url:
-        speakers:
-          speaker_1: *regular_speaker
-      talk_8:
-        item_type: "workshop"
-        track: *track_3
-        start_datetime: 2020-09-16T11:00
-        end_datetime: 2020-09-16T13:00
-        talk_title: "Workshop title (optional)"
-        talk_description: "Workshop description (optional) very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long very long "
-        speakers:
-          speaker_1: *regular_speaker
-      talk_9:
+      coffee-afternoon:
+        item_type: "service"
+        start_datetime: 2021-07-02T10:00+02:00
+        end_datetime: 2021-07-02T10:00+02:00
+        talk_title: "Coffee break"
+        service_icon: "coffee"
+      lunch:
+        item_type: "service"
+        start_datetime: 2021-07-02T10:00+02:00
+        end_datetime: 2021-07-02T10:00+02:00
+        talk_title: "Pausa pranzo"
+        service_icon: "cutlery"
+
+    # talk
+      bianchi-grafana-cortex:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2020-09-16T12:00
-        end_datetime: 2020-09-16T13:00
-        talk_title: "talk in second slot #1"
-        talk_description: "test per rowspan"
+        start_datetime:
+        end_datetime:
+        talk_title: "Costruire un sistema di monitoraggio multi-tenant con Grafana Prometheus e Cortex"
+        talk_description: "Prometheus e Grafana si sono dimostrati ormai lo standard per il monitoraggio di cluster Kubernetes. Le sfide aperte però restano: come archiviare a lungo termine metriche eterogenee che provengono da ambienti multitenant, e come dare accesso a tali metriche a Team/Clienti in maniera indipendente contenendo i costi e senza duplicare infrastruttura? Questo talk esplora come risolvere questi problemi tramite Cortex."
+      #   talk_video_url:
         speakers:
-          speaker_1: *regular_speaker
-      talk_10:
+          speaker_1: *thomasbianchi
+      carta-gitops-tekton:
         item_type: "talk"
-        track: *track_2
-        start_datetime: 2020-09-16T11:00
-        end_datetime: 2020-09-16T12:00
-        talk_title: "This is a talk in track 2"
-        talk_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        talk_video_url:
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "A fully GitOps CI/CD pipeline with Tekton and ArgoCD on Kubernetes"
+        talk_description: "Negli ultimi anni abbiamo assistito a cambiamenti radicali al modo in cui vengono progettate le applicazioni, con l’avvento dei container e Kubernetes. I tool di CI/CD iniziano ugualmente a sfruttare la sua potenza per la costruzione di pipeline serverless, scalabili e portabili.
+          Il progetto più importante in questo scenario di Pipelines native Kubernetes è Tekton. Le sue potenzialità possono essere estese con ArgoCD, in modo da avere pipeline dichiarative, conformi alle pratiche GitOps. La combinazione di questi due tool permette quindi la creazione di pipelines cloud native e che seguono i principi GitOps.
+          Questo talk introdurrà i partecipanti al nuovo stile di pipeline cloud native e GitOps, includendo una demo pratica per mostrarne le potenzialità."
+      #   talk_video_url:
         speakers:
-          speaker_1: *regular_speaker
-      talk_11:
-        item_type: "service"
-        start_datetime: 2020-09-16T13:00
-        end_datetime: 2020-09-16T14:00
-        talk_title: "Lunch break"
-        service_icon: "cutlery"
-      talk_12:
+          speaker_1: *paolocarta
+      fregosi-cloud:
         item_type: "talk"
-        track: *track_2
-        start_datetime: 2020-09-16T12:00
-        end_datetime: 2020-09-16T13:00
-        talk_title: "talk in second slot #2"
-        talk_description: "test per rowspan"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Architettura e struttura operativa aziendale: un enigma nel Cloud"
+        talk_description: "In questo talk, rifletteremo sulle implicazioni dell'architettura di sistema per la struttura organizzativa, considerando tre diverse 'modalità' di funzionamento specifiche del Cloud. Analizzeremo le soluzioni, presentando un approccio diverso alla trasformazione digitale che collega direttamente l'architettura cloud e la struttura del team.
+          Qual è il modo corretto di progettare o riprogettare un reparto, un team di team che supporta un sistema basato su VM? Come cambia per una piattaforma container (Kubernetes) o un'architettura serverless?"
+      #   talk_video_url:
         speakers:
-          speaker_1: *regular_speaker
-
+          speaker_1: *federicofregosi
+      galloro-tekton:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Tekton: From source to production inside Kubernetes"
+        talk_description: "Vedremo come creare una pipeline CI/CD utilizzando Tekton Pipelines, automatizzare lo start del processo di build e deployment ad ogni commit con Tekton Triggers, costruire efficacemente immagini di container dal codice sorgente senza Dockerfile con Cloud Native Buildpacks e monitorare ogni step del workflow con Tekton Dashboard."
+      #   talk_video_url:
+        speakers:
+          speaker_1: *giovannigalloro
+      gonzales-kubernetes-operators:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Kubernetes Operators: Operating Cloud Native services at scale"
+        talk_description: "Operators are extensions to Kubernetes that simplify application install and management by leveraging on manage applications Custom Resources."
+      #   talk_video_url:
+        speakers:
+          speaker_1: *horaciogonzalez
+      prevedello-haschicorp-vault:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Securing legacy applications and container microservices in Kubernetes with Security Mesh and HashiCorp Vault"
+        talk_description: "Il talk descrive come è stata imposta la sicurezza applicazioni legacy, deployate su applicatiaon servers tradizionali e microservizi a container attraverso specifici tools e setup infrastrutturali attorno ad HashiCorp Vault.
+          Al fine di adottare il principio zero trust, completa automazione e bassa frizione, è stata utilizzata la piattaforma GitOps sviluppata internamente al fine di fare l'enrollment e la configurazione automatica di nuove applicazioni, per configurare nuove connessioni sicure a database, connessioni tra applicazioni con gestione e rotazione dei certificati o credenziali."
+      #   talk_video_url:
+        speakers:
+          speaker_1: *cristianprevedello
+      raspa-flux:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "One repo to rule them all: Kubernetes cluster tenancy con Flux v2"
+        talk_description: "L’approccio GitOps ha rivoluzionato il modo di fare continuous deployment su cluster Kubernetes. GitOps operators, come Flux, permettono di tenere i cluster automaticamente in sync con delle repository Git. Purtroppo, le cose si complicano quando sia gli applicativi da gestire che i cluster aumentano. In questo talk, vedremo come sia possibile arginare questo problema, proponendo delle linee guide per la gestione del deployment di più applicativi e la tenancy di più cluster Kubernetes."
+      #   talk_video_url:
+        speakers:
+          speaker_1: *niccoloraspa
+      vitale-spring:
+        item_type: "talk"
+        track: *track_1
+        start_datetime:
+        end_datetime:
+        talk_title: "Cloud native con Java, Spring Boot e Kubernetes"
+        talk_description: "L'ecosistema Spring fornisce tutto il necessario per costruire applicazioni Java cloud native, con particolare attenzione per la produttività dello sviluppatore, semplicità e velocità. Permette di sfruttare al meglio le caratteristiche di ambienti cloud e si integra in modo nativo con Kubernetes.
+            In questa sessione, dimostrerò i punti fondamentali del processo di sviluppo e deployment di un'applicazione cloud native a partire dall'implementazione fino alla messa in produzione in un cluster Kubernetes. Descriverò i pattern più comuni e best practices per implementare applicazioni cloud native con Spring Boot reactive, che fornisce performance superiori, resilienza, ed efficienza. Mostrerò poi come trasformare l'applicazione Spring Boot in un container usando Cloud Native Buildpacks. Successivamente, configurerò l'applicazione tramite ConfigMaps e Secrets per poi metterla in produzione in un cluster Kubernetes usando un flusso GitOps con FluxCD e GitHub Actions."
+      #   talk_video_url:
+        speakers:
+          speaker_1: *thomasvitale
   # day_2:
   #   date: 2020-09-17T09:00
   #   title: "Day 2"

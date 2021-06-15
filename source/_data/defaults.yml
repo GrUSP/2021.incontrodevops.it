@@ -56,7 +56,9 @@ conference:
   # "general information" ("what is it?") component
   geninfo_visible: true
   geninfo_title: "Che cos'è?"
-  geninfo_description: "IDI Incontro DevOps Italia 2021 è la 9° edizione della conferenza italiana dedicata alle tematiche DevOps. Parleremo di DevOps, Continuous Delivery, Cloud, Microservices, Automation, Testing, Big Data, Containers, Data Center Operating Systems, Software Operability.<br> #IDI2021 si svolge il 2 Luglio 2021 ONLINE."
+  geninfo_description: "IDI Incontro DevOps Italia 2021 è la 9° edizione della conferenza italiana dedicata alle tematiche DevOps.
+    Parleremo di DevOps, Continuous Delivery, Cloud, Microservices, Automation, Testing, Big Data, Containers, Data Center Operating Systems, Software Operability.</br> <br />
+    #IDI2021 si svolge il 2 Luglio 2021 ONLINE. Oltre alla giornata di conferenza, sono compresi nel biglietto altri due appuntamenti, con altri talk e casi di studio, che si svolgeranno online in Settembre e Ottobre 2021."
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarships"
@@ -88,7 +90,7 @@ conference:
   newsletter_legal_label: "Informazioni riguardo la privacy policy di Mailchimp"
   # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
   mcs_title: "MC"
-  speakers_visible: false
+  speakers_visible: true
   speakers_title: "speaker"
   # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
   topics_visible: true
