@@ -24,18 +24,22 @@ platinum:
     site_url: "https://www.ovhcloud.com/it/"
 gold:
   sponsor1:
+    name: "Mia Platform"
+    logo_filename: "miaplatform.svg"
+    site_url: "https://www.mia-platform.eu/it/"
+  sponsor2:
     name: "sparkfabrik"
     logo_filename: "sparkfabrik.png"
     site_url: "https://www.sparkfabrik.com/it/"
-  sponsor2:
+  sponsor3:
     name: "suse"
     logo_filename: "suse.png"
     site_url: "https://www.suse.com"
-  sponsor3:
+  sponsor4:
     name: "vistatech"
     logo_filename: "vistatechnology.png"
     site_url: "https://www.vistatech.it"
-  sponsor4:
+  sponsor5:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
@@ -48,10 +52,6 @@ silver:
     name: "Madisoft"
     logo_filename: "madisoft.svg"
     site_url: "https://labs.madisoft.it"
-  sponsor3:
-    name: "Mia Platform"
-    logo_filename: "miaplatform.svg"
-    site_url: "https://www.mia-platform.eu/it/"
 bronze:
   sponsor1:
     name: "stickermule"
