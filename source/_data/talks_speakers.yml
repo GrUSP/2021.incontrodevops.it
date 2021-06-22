@@ -1,5 +1,5 @@
 # NB impostare a `true` per generare la pagina, a `false` per NON generarla
-generate_schedule_page: false
+generate_schedule_page: true
 schedule_under_construction_title: "Schedule under construction"
 schedule_under_construction_description: "We are still defining the schedule. Please be patient"
 
@@ -80,6 +80,47 @@ speaker_9: &fabiomora
   speaker_bio: ""
   is_mc: true
 
+speaker_10: &davidebianchi
+  speaker_in_speaker_lists: true
+  speaker_name: Davide Bianchi
+  speaker_pic_filename: davide-bianchi.png
+  speaker_role: "Tech Leader @ Mia-Platform"
+  speaker_bio: "Open source enthusiast, con focus su Javascript, Go e k8s. Sempre in cerca di nuove idee."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/dbianchi92"
+speaker_11: &giovannitoraldo
+  speaker_in_speaker_lists: true
+  speaker_name: Giovanni Toraldo
+  speaker_pic_filename: giovanni-toraldo.png
+  speaker_role: "Solutions Developer @ Engineering D.HUB"
+  speaker_bio: "Open source remote software developer, writer, speaker, Solutions developer in Engineering D.HUB. Often teleported into the 14th century."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/gionn"
+speaker_13: &giuseppecozzolino
+  speaker_in_speaker_lists: true
+  speaker_name: Giuseppe Cozzolino
+  speaker_pic_filename: giuseppe-cozzolino.png
+  speaker_role: "Presales Engineer @ SUSE"
+  speaker_bio: ""
+  speaker_github_url: ""
+  speaker_twitter_url: ""
+speaker_14: &andreapanisson
+  speaker_in_speaker_lists: true
+  speaker_name: Andrea Panisson
+  speaker_pic_filename: andrea-panisson.png
+  speaker_role: "Developer @ SparkFabrik"
+  speaker_bio: "Cloud native engineer e Kubernetes expert. Da anni mi occupo di sviluppo software ed architetture cloud native, sono fortemente convinto che Kubernetes sia stata una delle più grandi innovazioni degli ultimi anni e che diventerà (forse già in parte lo è) il kernel per applicazioni di nuova generazione."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/andypanix"
+speaker_15: &andreavivaldi
+  speaker_in_speaker_lists: true
+  speaker_name: Andrea Vivaldi
+  speaker_pic_filename: andrea-vivaldi.png
+  speaker_role: "Team Leader & Solution Architect @ Vista Technology Srl"
+  speaker_bio: "Automation, IaC & DevOps enthusiast. Telemetry & Observability true believer. Cloud Native motivator. Open Source addicted. Soon father of 2 twins..."
+  speaker_github_url: ""
+  speaker_twitter_url: "https://twitter.com/andreavivaldi"
+
 # per pubblicare speaker in home
 
 speakers:
@@ -92,6 +133,11 @@ speakers:
   speaker_7: *niccoloraspa
   speaker_8: *thomasvitale
   speaker_9: *fabiomora
+  speaker_10: *davidebianchi
+  speaker_11: *giovannitoraldo
+  speaker_12: *giuseppecozzolino
+  speaker_13: *andreapanisson
+  speaker_14: *andreavivaldi
 
 tracks:
   track_1: &track_1
@@ -114,36 +160,36 @@ tracks:
 
 days:
   day_1:
-    date: 2021-07-02T10:00+02:00
+    date: 2021-07-02T09:30+02:00
     title: "Day 1"
     talks:
     # service
       opening:
         item_type: "service"
-        start_datetime: 2021-07-02T10:00+02:00
-        end_datetime: 2021-07-02T10:00+02:00
+        start_datetime: 2021-07-02T09:30+02:00
+        end_datetime: 2021-07-02T09:45+02:00
         talk_title: "Welcome from GrUSP"
       closing:
         item_type: "service"
-        start_datetime: 2021-07-02T10:00+02:00
-        end_datetime: 2021-07-02T10:00+02:00
+        start_datetime: 2021-07-02T18:15+02:00
+        end_datetime: 2021-07-02T18:30+02:00
         talk_title: "Saluti dal GrUSP"
       coffee-morning:
         item_type: "service"
-        start_datetime: 2021-07-02T10:00+02:00
-        end_datetime: 2021-07-02T10:00+02:00
+        start_datetime: 2021-07-02T11:15+02:00
+        end_datetime: 2021-07-02T11:45+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
       coffee-afternoon:
         item_type: "service"
-        start_datetime: 2021-07-02T10:00+02:00
-        end_datetime: 2021-07-02T10:00+02:00
+        start_datetime: 2021-07-02T16:15+02:00
+        end_datetime: 2021-07-02T16:45+02:00
         talk_title: "Coffee break"
         service_icon: "coffee"
       lunch:
         item_type: "service"
-        start_datetime: 2021-07-02T10:00+02:00
-        end_datetime: 2021-07-02T10:00+02:00
+        start_datetime: 2021-07-02T13:30+02:00
+        end_datetime: 2021-07-02T14:30+02:00
         talk_title: "Pausa pranzo"
         service_icon: "cutlery"
 
@@ -151,8 +197,8 @@ days:
       bianchi-grafana-cortex:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-07-02T15:30+02:00
+        end_datetime: 2021-07-02T16:15+02:00
         talk_title: "Costruire un sistema di monitoraggio multi-tenant con Grafana Prometheus e Cortex"
         talk_description: "Prometheus e Grafana si sono dimostrati ormai lo standard per il monitoraggio di cluster Kubernetes. Le sfide aperte però restano: come archiviare a lungo termine metriche eterogenee che provengono da ambienti multitenant, e come dare accesso a tali metriche a Team/Clienti in maniera indipendente contenendo i costi e senza duplicare infrastruttura? Questo talk esplora come risolvere questi problemi tramite Cortex."
       #   talk_video_url:
@@ -161,8 +207,8 @@ days:
       carta-gitops-tekton:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-07-02T16:45+02:00
+        end_datetime: 2021-07-02T17:30+02:00
         talk_title: "A fully GitOps CI/CD pipeline with Tekton and ArgoCD on Kubernetes"
         talk_description: "Negli ultimi anni abbiamo assistito a cambiamenti radicali al modo in cui vengono progettate le applicazioni, con l’avvento dei container e Kubernetes. I tool di CI/CD iniziano ugualmente a sfruttare la sua potenza per la costruzione di pipeline serverless, scalabili e portabili.
           Il progetto più importante in questo scenario di Pipelines native Kubernetes è Tekton. Le sue potenzialità possono essere estese con ArgoCD, in modo da avere pipeline dichiarative, conformi alle pratiche GitOps. La combinazione di questi due tool permette quindi la creazione di pipelines cloud native e che seguono i principi GitOps.
@@ -173,8 +219,8 @@ days:
       fregosi-cloud:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-07-02T09:45+02:00
+        end_datetime: 2021-07-02T10:30+02:00
         talk_title: "Architettura e struttura operativa aziendale: un enigma nel Cloud"
         talk_description: "In questo talk, rifletteremo sulle implicazioni dell'architettura di sistema per la struttura organizzativa, considerando tre diverse 'modalità' di funzionamento specifiche del Cloud. Analizzeremo le soluzioni, presentando un approccio diverso alla trasformazione digitale che collega direttamente l'architettura cloud e la struttura del team.
           Qual è il modo corretto di progettare o riprogettare un reparto, un team di team che supporta un sistema basato su VM? Come cambia per una piattaforma container (Kubernetes) o un'architettura serverless?"
@@ -184,8 +230,8 @@ days:
       galloro-tekton:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-07-02T11:45+02:00
+        end_datetime: 2021-07-02T12:30+02:00
         talk_title: "Tekton: From source to production inside Kubernetes"
         talk_description: "Vedremo come creare una pipeline CI/CD utilizzando Tekton Pipelines, automatizzare lo start del processo di build e deployment ad ogni commit con Tekton Triggers, costruire efficacemente immagini di container dal codice sorgente senza Dockerfile con Cloud Native Buildpacks e monitorare ogni step del workflow con Tekton Dashboard."
       #   talk_video_url:
@@ -194,8 +240,8 @@ days:
       gonzales-kubernetes-operators:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-07-02T17:30+02:00
+        end_datetime: 2021-07-02T18:15+02:00
         talk_title: "Kubernetes Operators: Operating Cloud Native services at scale"
         talk_description: "Operators are extensions to Kubernetes that simplify application install and management by leveraging on manage applications Custom Resources."
       #   talk_video_url:
@@ -204,8 +250,8 @@ days:
       prevedello-haschicorp-vault:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-07-02T12:30+02:00
+        end_datetime: 2021-07-02T13:30+02:00
         talk_title: "Securing legacy applications and container microservices in Kubernetes with Security Mesh and HashiCorp Vault"
         talk_description: "Il talk descrive come è stata imposta la sicurezza applicazioni legacy, deployate su applicatiaon servers tradizionali e microservizi a container attraverso specifici tools e setup infrastrutturali attorno ad HashiCorp Vault.
           Al fine di adottare il principio zero trust, completa automazione e bassa frizione, è stata utilizzata la piattaforma GitOps sviluppata internamente al fine di fare l'enrollment e la configurazione automatica di nuove applicazioni, per configurare nuove connessioni sicure a database, connessioni tra applicazioni con gestione e rotazione dei certificati o credenziali."
@@ -215,8 +261,8 @@ days:
       raspa-flux:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-07-02T10:30+02:00
+        end_datetime: 2021-07-02T11:15+02:00
         talk_title: "One repo to rule them all: Kubernetes cluster tenancy con Flux v2"
         talk_description: "L’approccio GitOps ha rivoluzionato il modo di fare continuous deployment su cluster Kubernetes. GitOps operators, come Flux, permettono di tenere i cluster automaticamente in sync con delle repository Git. Purtroppo, le cose si complicano quando sia gli applicativi da gestire che i cluster aumentano. In questo talk, vedremo come sia possibile arginare questo problema, proponendo delle linee guide per la gestione del deployment di più applicativi e la tenancy di più cluster Kubernetes."
       #   talk_video_url:
@@ -225,18 +271,81 @@ days:
       vitale-spring:
         item_type: "talk"
         track: *track_1
-        start_datetime:
-        end_datetime:
+        start_datetime: 2021-07-02T14:30+02:00
+        end_datetime: 2021-07-02T15:30+02:00
         talk_title: "Cloud native con Java, Spring Boot e Kubernetes"
         talk_description: "L'ecosistema Spring fornisce tutto il necessario per costruire applicazioni Java cloud native, con particolare attenzione per la produttività dello sviluppatore, semplicità e velocità. Permette di sfruttare al meglio le caratteristiche di ambienti cloud e si integra in modo nativo con Kubernetes.
             In questa sessione, dimostrerò i punti fondamentali del processo di sviluppo e deployment di un'applicazione cloud native a partire dall'implementazione fino alla messa in produzione in un cluster Kubernetes. Descriverò i pattern più comuni e best practices per implementare applicazioni cloud native con Spring Boot reactive, che fornisce performance superiori, resilienza, ed efficienza. Mostrerò poi come trasformare l'applicazione Spring Boot in un container usando Cloud Native Buildpacks. Successivamente, configurerò l'applicazione tramite ConfigMaps e Secrets per poi metterla in produzione in un cluster Kubernetes usando un flusso GitOps con FluxCD e GitHub Actions."
       #   talk_video_url:
         speakers:
           speaker_1: *thomasvitale
-  # day_2:
-  #   date: 2020-09-17T09:00
-  #   title: "Day 2"
-  #   talks:
+  day_2:
+    date: 2021-09-28T09:00+02:00
+    title: "Day 2"
+    talks:
+      talk-1:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-09-28T09:00+02:00
+        end_datetime: 2021-09-28T10:00+02:00
+        talk_title: "kube-green"
+        talk_description: "Anche lo sviluppo del software ha un impatto importante sul clima e sull’ambiente.
+          Qualche esempio? I Bitcoin producono 36.95 megatoni di anidride carbonica all’anno; Minecraft, il videogioco più giocato al mondo, ha prodotto nella sua vita 600 milioni di kg di CO2.
+          Gli sviluppatori che hanno realizzato questi software non pensavano di avere un impatto così importante sul clima mondiale.
+          Ora, però, è il momento di pensarci per il futuro.
+          Per questo ho realizzato kube-green, un progetto OSS su GitHub che ha l’obiettivo di ridurre la carbon footprint di applicativi Cloud Native.
+          In questo talk vedremo come funziona, una live demo e la sua roadmap per avere un mondo sempre più pulito e un software funzionante e scalabile."
+        speakers:
+          speaker_1: *davidebianchi
+      talk-2:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-09-28T10:00+02:00
+        end_datetime: 2021-09-28T11:00+02:00
+        talk_title: "Yet another Continuous Delivery talk"
+        talk_description: "Pratiche di Continuous Delivery nel 2021"
+        speakers:
+          speaker_1: *giovannitoraldo
+      talk-3:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-09-28T11:00+02:00
+        end_datetime: 2021-09-28T12:00+02:00
+        talk_title: "Mainframe & Serverless Integration - Come liberare i dati e rimanere competitivi nel nuovo mondo!"
+        talk_description: "Le grandi istituzioni finanziarie sono a un bivio: dagli anni '90, l'industria ha investito sopratutto in affidabilità e resilienza , ma la tecnologia moderna sta mettendo pressione, spingendo l'innovazione a una velocità vertiginosa, creando un ecosistema di transazioni fluido e sfornando una continua evoluzione di prodotti e talento tecnologico. In questo talk, parleremo di un’esperienza nella liberazione dei dati nel mainframe con una soluzione hybrid serverless/containers costruita su AWS. È un'architettura con decine di funzioni serverless Java che trasmettono in live streaming i dati mainframe al cloud, utilizzando una suite di servizi in grado di funzionare a centinaia di rps: DynamoDB, Lambda, API Gateway, Fargate."
+        speakers:
+          speaker_1: *federicofregosi
+  day_3:
+    date: 2021-10-28T09:00+02:00
+    title: "Day 3"
+    talks:
+      talk1:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-09-28T09:00+02:00
+        end_datetime: 2021-09-28T10:00+02:00
+        talk_title: "GitOps at scale: gestire fino ad un milione di cluster Kubernetes con Rancher Fleet"
+        talk_description: "Fleet è la soluzione di Rancher che, attraverso il paradigma GitOps, realizza la possibilità di gestire e distribuire applicazioni su flotte di cluster kubernetes su larga scala, ovunque essi si trovino, dal datacenter al cloud all'edge."
+        speakers:
+          speaker_1: *giuseppecozzolino
+      talk2:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-09-28T10:00+02:00
+        end_datetime: 2021-09-28T11:00+02:00
+        talk_title: "Lo stato di GitOps nel 2021"
+        talk_description: "GitOps, che cos'è, qual è il suo stato e qual à lo stato dell'ecosistema che gravita attorno a questa metodologia, con un'analisi degli strumenti e degli attori coinvolti, dove stiamo andando e quali sono le sfide per il futuro."
+        speakers:
+          speaker_1: *andreapanisson
+      talk3:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-09-28T11:00+02:00
+        end_datetime: 2021-09-28T12:00+02:00
+        talk_title: "YANQ: Yet Another NetOps Quickstart"
+        talk_description: "Cosa si intende per NetOps? Perché mi serve? E soprattutto: da dove caspita devo cominciare?! Facciamo un viaggio nel mondo NetOps e vediamo quanto può essere facile mettere insieme i pezzi per costruire qualcosa di veramente automatizzato nel mondo del Networking, partendo dal deploy delle configurazioni, passando per la validazione, fino ad arrivare al monitoring. Ah... ovviamente Open Source!"
+        speakers:
+          speaker_1: *andreavivaldi
   #     talk_1:
   #       item_type: "service"
   #       start_datetime: 2020-09-16T09:00
