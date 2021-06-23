@@ -101,7 +101,7 @@ speaker_13: &giuseppecozzolino
   speaker_name: Giuseppe Cozzolino
   speaker_pic_filename: giuseppe-cozzolino.png
   speaker_role: "Presales Engineer @ SUSE"
-  speaker_bio: ""
+  speaker_bio: "Sales engineer with the passion of the automation. Kubernetes, Rancher and fitness addicted!"
   speaker_github_url: ""
   speaker_twitter_url: ""
 speaker_14: &andreapanisson

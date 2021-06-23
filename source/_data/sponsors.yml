@@ -66,6 +66,10 @@ bronze:
     logo_filename: "google-cloud.svg"
     site_url: "https://cloud.google.com/"
   sponsor3:
+    name: "previnet"
+    logo_filename: "previnet.png"
+    site_url: "https://www.linkedin.com/company/previnet-s.p.a."
+  sponsor4:
     name: "stickermule"
     logo_filename: "stickermule.svg"
     site_url: "https://mule.to/p1j5"
