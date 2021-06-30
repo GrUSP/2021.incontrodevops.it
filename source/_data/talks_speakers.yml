@@ -194,6 +194,59 @@ days:
         service_icon: "cutlery"
 
     # talk
+      fregosi-cloud:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-07-02T09:45+02:00
+        end_datetime: 2021-07-02T10:30+02:00
+        talk_title: "Architettura e struttura operativa aziendale: un enigma nel Cloud"
+        talk_description: "In questo talk, rifletteremo sulle implicazioni dell'architettura di sistema per la struttura organizzativa, considerando tre diverse 'modalità' di funzionamento specifiche del Cloud. Analizzeremo le soluzioni, presentando un approccio diverso alla trasformazione digitale che collega direttamente l'architettura cloud e la struttura del team.
+          Qual è il modo corretto di progettare o riprogettare un reparto, un team di team che supporta un sistema basato su VM? Come cambia per una piattaforma container (Kubernetes) o un'architettura serverless?"
+      #   talk_video_url:
+        speakers:
+          speaker_1: *federicofregosi
+      raspa-flux:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-07-02T10:30+02:00
+        end_datetime: 2021-07-02T11:15+02:00
+        talk_title: "One repo to rule them all: Kubernetes cluster tenancy con Flux v2"
+        talk_description: "L’approccio GitOps ha rivoluzionato il modo di fare continuous deployment su cluster Kubernetes. GitOps operators, come Flux, permettono di tenere i cluster automaticamente in sync con delle repository Git. Purtroppo, le cose si complicano quando sia gli applicativi da gestire che i cluster aumentano. In questo talk, vedremo come sia possibile arginare questo problema, proponendo delle linee guide per la gestione del deployment di più applicativi e la tenancy di più cluster Kubernetes."
+      #   talk_video_url:
+        speakers:
+          speaker_1: *niccoloraspa
+      galloro-tekton:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-07-02T11:45+02:00
+        end_datetime: 2021-07-02T12:30+02:00
+        talk_title: "Tekton: From source to production inside Kubernetes"
+        talk_description: "Vedremo come creare una pipeline CI/CD utilizzando Tekton Pipelines, automatizzare lo start del processo di build e deployment ad ogni commit con Tekton Triggers, costruire efficacemente immagini di container dal codice sorgente senza Dockerfile con Cloud Native Buildpacks e monitorare ogni step del workflow con Tekton Dashboard."
+      #   talk_video_url:
+        speakers:
+          speaker_1: *giovannigalloro
+      prevedello-haschicorp-vault:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-07-02T12:30+02:00
+        end_datetime: 2021-07-02T13:30+02:00
+        talk_title: "Securing legacy applications and container microservices in Kubernetes with Security Mesh and HashiCorp Vault"
+        talk_description: "Il talk descrive come è stata imposta la sicurezza applicazioni legacy, deployate su applicatiaon servers tradizionali e microservizi a container attraverso specifici tools e setup infrastrutturali attorno ad HashiCorp Vault.
+          Al fine di adottare il principio zero trust, completa automazione e bassa frizione, è stata utilizzata la piattaforma GitOps sviluppata internamente al fine di fare l'enrollment e la configurazione automatica di nuove applicazioni, per configurare nuove connessioni sicure a database, connessioni tra applicazioni con gestione e rotazione dei certificati o credenziali."
+      #   talk_video_url:
+        speakers:
+          speaker_1: *cristianprevedello
+      vitale-spring:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-07-02T14:30+02:00
+        end_datetime: 2021-07-02T15:30+02:00
+        talk_title: "Cloud native con Java, Spring Boot e Kubernetes"
+        talk_description: "L'ecosistema Spring fornisce tutto il necessario per costruire applicazioni Java cloud native, con particolare attenzione per la produttività dello sviluppatore, semplicità e velocità. Permette di sfruttare al meglio le caratteristiche di ambienti cloud e si integra in modo nativo con Kubernetes.
+            In questa sessione, dimostrerò i punti fondamentali del processo di sviluppo e deployment di un'applicazione cloud native a partire dall'implementazione fino alla messa in produzione in un cluster Kubernetes. Descriverò i pattern più comuni e best practices per implementare applicazioni cloud native con Spring Boot reactive, che fornisce performance superiori, resilienza, ed efficienza. Mostrerò poi come trasformare l'applicazione Spring Boot in un container usando Cloud Native Buildpacks. Successivamente, configurerò l'applicazione tramite ConfigMaps e Secrets per poi metterla in produzione in un cluster Kubernetes usando un flusso GitOps con FluxCD e GitHub Actions."
+      #   talk_video_url:
+        speakers:
+          speaker_1: *thomasvitale
       bianchi-grafana-cortex:
         item_type: "talk"
         track: *track_1
@@ -216,27 +269,7 @@ days:
       #   talk_video_url:
         speakers:
           speaker_1: *paolocarta
-      fregosi-cloud:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-07-02T09:45+02:00
-        end_datetime: 2021-07-02T10:30+02:00
-        talk_title: "Architettura e struttura operativa aziendale: un enigma nel Cloud"
-        talk_description: "In questo talk, rifletteremo sulle implicazioni dell'architettura di sistema per la struttura organizzativa, considerando tre diverse 'modalità' di funzionamento specifiche del Cloud. Analizzeremo le soluzioni, presentando un approccio diverso alla trasformazione digitale che collega direttamente l'architettura cloud e la struttura del team.
-          Qual è il modo corretto di progettare o riprogettare un reparto, un team di team che supporta un sistema basato su VM? Come cambia per una piattaforma container (Kubernetes) o un'architettura serverless?"
-      #   talk_video_url:
-        speakers:
-          speaker_1: *federicofregosi
-      galloro-tekton:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-07-02T11:45+02:00
-        end_datetime: 2021-07-02T12:30+02:00
-        talk_title: "Tekton: From source to production inside Kubernetes"
-        talk_description: "Vedremo come creare una pipeline CI/CD utilizzando Tekton Pipelines, automatizzare lo start del processo di build e deployment ad ogni commit con Tekton Triggers, costruire efficacemente immagini di container dal codice sorgente senza Dockerfile con Cloud Native Buildpacks e monitorare ogni step del workflow con Tekton Dashboard."
-      #   talk_video_url:
-        speakers:
-          speaker_1: *giovannigalloro
+
       gonzales-kubernetes-operators:
         item_type: "talk"
         track: *track_1
@@ -247,38 +280,6 @@ days:
       #   talk_video_url:
         speakers:
           speaker_1: *horaciogonzalez
-      prevedello-haschicorp-vault:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-07-02T12:30+02:00
-        end_datetime: 2021-07-02T13:30+02:00
-        talk_title: "Securing legacy applications and container microservices in Kubernetes with Security Mesh and HashiCorp Vault"
-        talk_description: "Il talk descrive come è stata imposta la sicurezza applicazioni legacy, deployate su applicatiaon servers tradizionali e microservizi a container attraverso specifici tools e setup infrastrutturali attorno ad HashiCorp Vault.
-          Al fine di adottare il principio zero trust, completa automazione e bassa frizione, è stata utilizzata la piattaforma GitOps sviluppata internamente al fine di fare l'enrollment e la configurazione automatica di nuove applicazioni, per configurare nuove connessioni sicure a database, connessioni tra applicazioni con gestione e rotazione dei certificati o credenziali."
-      #   talk_video_url:
-        speakers:
-          speaker_1: *cristianprevedello
-      raspa-flux:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-07-02T10:30+02:00
-        end_datetime: 2021-07-02T11:15+02:00
-        talk_title: "One repo to rule them all: Kubernetes cluster tenancy con Flux v2"
-        talk_description: "L’approccio GitOps ha rivoluzionato il modo di fare continuous deployment su cluster Kubernetes. GitOps operators, come Flux, permettono di tenere i cluster automaticamente in sync con delle repository Git. Purtroppo, le cose si complicano quando sia gli applicativi da gestire che i cluster aumentano. In questo talk, vedremo come sia possibile arginare questo problema, proponendo delle linee guide per la gestione del deployment di più applicativi e la tenancy di più cluster Kubernetes."
-      #   talk_video_url:
-        speakers:
-          speaker_1: *niccoloraspa
-      vitale-spring:
-        item_type: "talk"
-        track: *track_1
-        start_datetime: 2021-07-02T14:30+02:00
-        end_datetime: 2021-07-02T15:30+02:00
-        talk_title: "Cloud native con Java, Spring Boot e Kubernetes"
-        talk_description: "L'ecosistema Spring fornisce tutto il necessario per costruire applicazioni Java cloud native, con particolare attenzione per la produttività dello sviluppatore, semplicità e velocità. Permette di sfruttare al meglio le caratteristiche di ambienti cloud e si integra in modo nativo con Kubernetes.
-            In questa sessione, dimostrerò i punti fondamentali del processo di sviluppo e deployment di un'applicazione cloud native a partire dall'implementazione fino alla messa in produzione in un cluster Kubernetes. Descriverò i pattern più comuni e best practices per implementare applicazioni cloud native con Spring Boot reactive, che fornisce performance superiori, resilienza, ed efficienza. Mostrerò poi come trasformare l'applicazione Spring Boot in un container usando Cloud Native Buildpacks. Successivamente, configurerò l'applicazione tramite ConfigMaps e Secrets per poi metterla in produzione in un cluster Kubernetes usando un flusso GitOps con FluxCD e GitHub Actions."
-      #   talk_video_url:
-        speakers:
-          speaker_1: *thomasvitale
   day_2:
     date: 2021-09-28T09:00+02:00
     title: "Day 2"

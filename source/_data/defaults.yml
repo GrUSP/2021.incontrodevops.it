@@ -42,11 +42,10 @@ conference:
   update_visible: true
   update_is_warning: false
   update_warning_header: ""
-  update_title: "Non perdere gli eventi gratuiti che anticipano la conferenza"
-  update_description: "SAVE THE DATE! Martedì 29 Giugno 2021: <a href='https://serverless-localhost.eventbrite.it'>'Serverless <i>at localhost'.</i></a> </br>
-        Eventi passati, da rivedere: <a href='https://youtube.com/playlist?list=PLWK9j6ps_unkAyuxw8ZHDY-DYH7iSmevo'>'GitOps <i>at localhost'</i></a>, <a href='https://localhost.grusp.org/idi'>'IDI <i>at localhost'</i></a>, <a href='https://www.grusp.org/localhost/mlops/'>'MLOps <i>at localhost'</i></a> "
-  update_link_url: "https://serverless-localhost.eventbrite.it"
-  update_link_label: "Aspettando #IDI2021"
+  update_title: "Un biglietto, tre eventi"
+  update_description: "Incontro DevOps Italia 2021 comprende 3 eventi online: 2 Luglio, 28 Settembre e 28 Ottobre."
+  update_link_url: "https://idi-2021.eventbrite.it"
+  update_link_label: "Partecipa!"
   # "call for papers" component. set the first parameter to true to make it appear in home page, false means hidden
   cfp_open: false
   cfp_readmore_label: "Continua a leggere"
