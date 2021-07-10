@@ -304,7 +304,7 @@ days:
         start_datetime: 2021-09-28T10:00+02:00
         end_datetime: 2021-09-28T11:00+02:00
         talk_title: "Yet another Continuous Delivery talk"
-        talk_description: "Pratiche di Continuous Delivery nel 2021"
+        talk_description: "Pratiche di Continuous Delivery applicate a un progetto software multi-cloud nato nel 2013, attraverso costanti micro-evoluzioni delle pipelines a supporto dello sviluppo e della gestione dell'infrastruttura."
         speakers:
           speaker_1: *giovannitoraldo
       talk-3:
