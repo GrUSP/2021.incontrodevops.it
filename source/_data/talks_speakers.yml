@@ -323,8 +323,8 @@ days:
       talk1:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2021-09-28T09:00+02:00
-        end_datetime: 2021-09-28T10:00+02:00
+        start_datetime: 2021-10-28T09:00+02:00
+        end_datetime: 2021-10-28T10:00+02:00
         talk_title: "GitOps at scale: gestire fino ad un milione di cluster Kubernetes con Rancher Fleet"
         talk_description: "Fleet è la soluzione di Rancher che, attraverso il paradigma GitOps, realizza la possibilità di gestire e distribuire applicazioni su flotte di cluster kubernetes su larga scala, ovunque essi si trovino, dal datacenter al cloud all'edge."
         speakers:
@@ -332,8 +332,8 @@ days:
       talk2:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2021-09-28T10:00+02:00
-        end_datetime: 2021-09-28T11:00+02:00
+        start_datetime: 2021-10-28T10:00+02:00
+        end_datetime: 2021-10-28T11:00+02:00
         talk_title: "Lo stato di GitOps nel 2021"
         talk_description: "GitOps, che cos'è, qual è il suo stato e qual à lo stato dell'ecosistema che gravita attorno a questa metodologia, con un'analisi degli strumenti e degli attori coinvolti, dove stiamo andando e quali sono le sfide per il futuro."
         speakers:
@@ -341,8 +341,8 @@ days:
       talk3:
         item_type: "talk"
         track: *track_1
-        start_datetime: 2021-09-28T11:00+02:00
-        end_datetime: 2021-09-28T12:00+02:00
+        start_datetime: 2021-10-28T11:00+02:00
+        end_datetime: 2021-10-28T12:00+02:00
         talk_title: "YANQ: Yet Another NetOps Quickstart"
         talk_description: "Cosa si intende per NetOps? Perché mi serve? E soprattutto: da dove caspita devo cominciare?! Facciamo un viaggio nel mondo NetOps e vediamo quanto può essere facile mettere insieme i pezzi per costruire qualcosa di veramente automatizzato nel mondo del Networking, partendo dal deploy delle configurazioni, passando per la validazione, fino ad arrivare al monitoring. Ah... ovviamente Open Source!"
         speakers:
