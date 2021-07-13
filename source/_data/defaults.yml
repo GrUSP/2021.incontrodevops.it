@@ -26,7 +26,7 @@ conference:
   title_pre: "#IDI2021"
   title: "Incontro DevOps Italia"
   city: "online"
-  date: 2021-07-02T09:30+02:00
+  date: 2021-09-28T09:30+02:00
   # Use the next field to override the date in the hero
   hero_date_text: "2 Luglio, 28 Settembre e 28 Ottobre"
   countdown_visible: true
