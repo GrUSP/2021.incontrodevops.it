@@ -334,6 +334,16 @@ days:
         talk_description: "Le grandi istituzioni finanziarie sono a un bivio: dagli anni '90, l'industria ha investito sopratutto in affidabilità e resilienza , ma la tecnologia moderna sta mettendo pressione, spingendo l'innovazione a una velocità vertiginosa, creando un ecosistema di transazioni fluido e sfornando una continua evoluzione di prodotti e talento tecnologico. In questo talk, parleremo di un’esperienza nella liberazione dei dati nel mainframe con una soluzione hybrid serverless/containers costruita su AWS. È un'architettura con decine di funzioni serverless Java che trasmettono in live streaming i dati mainframe al cloud, utilizzando una suite di servizi in grado di funzionare a centinaia di rps: DynamoDB, Lambda, API Gateway, Fargate."
         speakers:
           speaker_1: *federicofregosi
+      talk-4:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-09-28T14:30+02:00
+        end_datetime: 2021-09-28T15:30+02:00
+        talk_title: "SIGHUP presenta: Automatizzare la creazione di cluster Kubernetes su EKS con furyctl"
+        talk_description: "<i>[La sessione si svolge allo stand virtuale di SIGHUP, presso l'area expo della piattaforma.]</i> Stanco della complessità del provisioning di cluster Kubernetes? Segui questo talk hands-on per scoprire come sia possibile utilizzare furyctl per automatizzare la creazione di cluster Fury su EKS."
+        speakers:
+          speaker_1: *niccoloraspa
+
   day_3:
     date: 2021-10-28T09:00+02:00
     title: "Day 3"
