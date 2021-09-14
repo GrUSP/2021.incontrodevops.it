@@ -281,7 +281,7 @@ days:
         speakers:
           speaker_1: *horaciogonzalez
   day_2:
-    date: 2021-09-28T09:00+02:00
+    date: 2021-09-28T09:30+02:00
     title: "Day 2"
     talks:
       # service
