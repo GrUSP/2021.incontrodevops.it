@@ -26,6 +26,10 @@ platinum:
     name: "OVHcloud"
     logo_filename: "ovh.png"
     site_url: "https://www.ovhcloud.com/it/"
+  sponsor5:
+    name: "suse"
+    logo_filename: "suse.png"
+    site_url: "https://www.suse.com"
 gold:
   sponsor1:
     name: "Mia Platform"
@@ -36,14 +40,10 @@ gold:
     logo_filename: "sparkfabrik.png"
     site_url: "https://www.sparkfabrik.com/it/"
   sponsor3:
-    name: "suse"
-    logo_filename: "suse.png"
-    site_url: "https://www.suse.com"
-  sponsor4:
     name: "vistatech"
     logo_filename: "vistatechnology.png"
     site_url: "https://www.vistatech.it"
-  sponsor5:
+  sponsor4:
     name: "workwave"
     logo_filename: "workwave.svg"
     site_url: "https://www.workwave.com/"
