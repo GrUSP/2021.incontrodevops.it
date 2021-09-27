@@ -343,6 +343,15 @@ days:
         talk_description: "<i>[La sessione si svolge allo stand virtuale di SIGHUP, presso l'area expo della piattaforma.]</i> Stanco della complessità del provisioning di cluster Kubernetes? Segui questo talk hands-on per scoprire come sia possibile utilizzare furyctl per automatizzare la creazione di cluster Fury su EKS."
         speakers:
           speaker_1: *niccoloraspa
+      talk-5:
+        item_type: "talk"
+        track: *track_1
+        start_datetime: 2021-09-28T14:15+02:00
+        end_datetime: 2021-09-28T14:45+02:00
+        talk_title: "SUSE Presenta: Introducing Rancher 2.6. La piattaforma di gestione di Kubernetes più popolare al mondo."
+        talk_description: "<i>[La sessione si svolge allo stand virtuale di SUSE, presso l'area expo della piattaforma.]</i>"
+        speakers:
+          speaker_1: *giuseppecozzolino
 
   day_3:
     date: 2021-10-28T09:00+02:00
