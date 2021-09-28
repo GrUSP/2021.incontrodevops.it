@@ -26,7 +26,7 @@ conference:
   title_pre: "#IDI2021"
   title: "Incontro DevOps Italia"
   city: "online"
-  date: 2021-09-28T09:30+02:00
+  date: 2021-10-28T09:30+02:00
   # Use the next field to override the date in the hero
   hero_date_text: "2 Luglio, 28 Settembre e 28 Ottobre"
   countdown_visible: true
@@ -65,7 +65,7 @@ conference:
     <li>• Martedì 28 Settembre 2021, mezza giornata;</li>
     <li>• Giovedì 28 Ottobre 2021, mezza giornata.</li>
     </ul></br>
-    Il biglietto consente la partecipazione a tutti e tre gli appuntamenti."
+    Il biglietto consente la partecipazione a tutti e tre gli appuntamenti, e l'accesso a tutti i video."
   geninfo_about_label: "About"
   geninfo_coc_label: "Codice di condotta"
   geninfo_scholarships_label: "Scholarships"
