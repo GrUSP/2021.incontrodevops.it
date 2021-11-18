@@ -17,13 +17,14 @@ section(id="generalinfo").section_nopadding
             .geninfo-buttons__button
               include ../../../source/assets/ico/ico-coc.svg
           a(href="welcome/coc.html" role="button" aria-label=site.data.defaults.conference.geninfo_coc_label) !{site.data.defaults.conference.geninfo_coc_label}
-        .geninfo-buttons__button-container
-          a(href="welcome/scholarships.html" role="button")
-            .geninfo-buttons__button
-              include ../../../source/assets/ico/ico-scholarship.svg
-          a(href="welcome/scholarships.html" role="button" aria-label=site.data.defaults.conference.geninfo_scholarships_label) !{site.data.defaults.conference.geninfo_scholarships_label}
-        .geninfo-buttons__button-container
-          a(href=site.data.defaults.conference.buy_tickets_url role="button" rel="external nopener noreferrer" target="_blank")
-            .geninfo-buttons__button
-              include ../../../source/assets/ico/ico-ticket.svg
-          a(href=site.data.defaults.conference.buy_tickets_url role="button" rel="external nopener noreferrer" target="_blank" aria-label=site.data.defaults.conference.geninfo_tickets_label) !{site.data.defaults.conference.geninfo_tickets_label}
+        if (site.data.defaults.conference.ticket_button_visible)
+          .geninfo-buttons__button-container
+            a(href="welcome/scholarships.html" role="button")
+              .geninfo-buttons__button
+                include ../../../source/assets/ico/ico-scholarship.svg
+            a(href="welcome/scholarships.html" role="button" aria-label=site.data.defaults.conference.geninfo_scholarships_label) !{site.data.defaults.conference.geninfo_scholarships_label}
+          .geninfo-buttons__button-container
+            a(href=site.data.defaults.conference.buy_tickets_url role="button" rel="external nopener noreferrer" target="_blank")
+              .geninfo-buttons__button
+                include ../../../source/assets/ico/ico-ticket.svg
+            a(href=site.data.defaults.conference.buy_tickets_url role="button" rel="external nopener noreferrer" target="_blank" aria-label=site.data.defaults.conference.geninfo_tickets_label) !{site.data.defaults.conference.geninfo_tickets_label}
