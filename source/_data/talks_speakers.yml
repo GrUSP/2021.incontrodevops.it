@@ -46,7 +46,7 @@ speaker_5: &horaciogonzalez
   speaker_role: "DevRel Leader @ OVHcloud"
   speaker_bio: "My role as DevRel Leader is to lead the DevRel Practitioners community at OVHcloud, defining the DevRel strategy, coordinating and giving visibility to our different actions, animating the community and, of course, doing DevRel tasks."
   speaker_github_url: ""
-  speaker_twitter_url: "https://twitter.com/"
+  speaker_twitter_url: "https://twitter.com/LostInBrittany"
 speaker_6: &cristianprevedello
   speaker_in_speaker_lists: true
   speaker_name: Cristian Prevedello
@@ -54,7 +54,7 @@ speaker_6: &cristianprevedello
   speaker_role: "Chief Architect @ Previnet"
   speaker_bio: "I'm an an hands-on chief architect, fully dedicated to build my company private cloud infrastructure through custom made devops tools, used to deliver and rollout highly performant and scalable applications based on reactive microservices and kubernetes."
   speaker_github_url: ""
-  speaker_twitter_url: "https://twitter.com/LostInBrittany"
+  speaker_twitter_url: ""
 speaker_7: &niccoloraspa
   speaker_in_speaker_lists: true
   speaker_name: Niccolò Raspa
