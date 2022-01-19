@@ -29,7 +29,7 @@ conference:
   date: 2021-10-28T09:30+02:00
   # Use the next field to override the date in the hero
   hero_date_text: "2 Luglio, 28 Settembre e 28 Ottobre"
-  countdown_visible: true
+  countdown_visible: false
   countdown_days: "giorni"
   countdown_hours: "ore"
   countdown_minutes: "minuti"
@@ -96,9 +96,10 @@ conference:
   newsletter_legal_url: "https://mailchimp.com/legal/"
   newsletter_legal_label: "Informazioni riguardo la privacy policy di Mailchimp"
   # "speakers" component. set the first parameter to true to make it appear in home page, false means hidden
-  mcs_title: "MC"
   speakers_visible: true
   speakers_title: "speaker"
+  mcs_title: "MC"
+  speaker_count_text:
   # "topics" component. set the first parameter to true to make it appear in home page, false means hidden
   topics_visible: true
   topics_title: "Argomenti e temi"
